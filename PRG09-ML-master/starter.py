@@ -161,4 +161,5 @@ def supervisedLearning(logistic=True):
     plt.axis([min(x), max(x), min(y), max(y)])
     plt.show()
 
-supervisedLearning(False)
+# unsupervisedLearning()
+supervisedLearning(True)
